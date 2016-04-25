@@ -1,0 +1,42 @@
+{
+  "name": "passport-couch",
+  "version": "0.9.0",
+  "description": "CouchDB Strategy for PassportJS",
+  "main": "strategy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextorigin/passport-couchdb.git"
+  },
+  "keywords": [
+    "passport",
+    "express",
+    "couchdb",
+    "couch",
+    "strategy",
+    "login",
+    "authenticate",
+    "authentication",
+    "cloudant",
+    "couchbase",
+    "user"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextorigin/passport-couchdb/issues"
+  },
+  "homepage": "https://github.com/nextorigin/passport-couchdb#readme",
+  "dependencies": {
+    "cloudant-user": "^2.0.0",
+    "couch-login": "^1.0.1",
+    "errify": "^1.0.0",
+    "iced-runtime": "^1.0.3"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}
