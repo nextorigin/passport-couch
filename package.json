@@ -32,7 +32,7 @@
   "homepage": "https://github.com/nextorigin/passport-couchdb#readme",
   "dependencies": {
     "cloudant-user": "^2.0.0",
-    "couch-login": "^1.0.1",
+    "couch-login": "nextorigin/couch-login",
     "errify": "^1.0.0",
     "iced-runtime": "^1.0.3"
   },
