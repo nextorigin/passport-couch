@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nextorigin/passport-couchdb.git"
+    "url": "git://github.com/nextorigin/passport-couch.git"
   },
   "keywords": [
     "passport",
@@ -27,9 +27,9 @@
   "author": "doublerebel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nextorigin/passport-couchdb/issues"
+    "url": "https://github.com/nextorigin/passport-couch/issues"
   },
-  "homepage": "https://github.com/nextorigin/passport-couchdb#readme",
+  "homepage": "https://github.com/nextorigin/passport-couch#readme",
   "dependencies": {
     "cloudant-user": "^2.0.0",
     "couch-login": "nextorigin/couch-login",
