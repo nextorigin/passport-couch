@@ -4,8 +4,11 @@
   "description": "CouchDB Strategy for PassportJS",
   "main": "strategy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+    "test": "npm run test:modules && npm run test:coverage",
+    "test:modules": "mocha --recursive --compilers coffee:iced-coffee-script/register --require iced-coffee-coverage/register-istanbul test/",
+    "test:coverage": "istanbul report",
+    "build": "iced --bare --map --runtime node -o ./ -c src/",
+    "watch": "iced --watch --bare --map --runtime node -o ./ -c src/"
   },
   "repository": {
     "type": "git",
@@ -37,6 +40,13 @@
     "iced-runtime": "^1.0.3"
   },
   "devDependencies": {
-    "iced-coffee-script": "^108.0.11"
+    "chai": "^3.5.0",
+    "couch": "^0.5.0",
+    "coveralls": "^2.11.14",
+    "cushion": "^1.6.4",
+    "iced-coffee-coverage": "^1.0.3",
+    "iced-coffee-script": "^108.0.11",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2"
   }
 }
