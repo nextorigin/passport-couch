@@ -1,8 +1,8 @@
 {
   "name": "passport-couch",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "CouchDB Strategy for PassportJS",
-  "main": "strategy.js",
+  "main": "passport-couch.js",
   "scripts": {
     "test": "npm run test:modules && npm run test:coverage",
     "test:modules": "mocha --recursive --compilers coffee:iced-coffee-script/register --require iced-coffee-coverage/register-istanbul test/",
