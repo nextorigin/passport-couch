@@ -1,6 +1,6 @@
 {
   "name": "passport-couch",
-  "version": "0.10.0",
+  "version": "0.10.2",
   "description": "CouchDB Strategy for PassportJS",
   "main": "passport-couch.js",
   "scripts": {
