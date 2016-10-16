@@ -16,7 +16,7 @@ class CouchStrategy
   serializeUser: (user, done) ->
     done null, user.name
 
-  deserializeUser: (id, done) ->
+  deserializeUser: (id, done) =>
     @cloudantUser.get id, done
 
   authenticate: (req, options) ->
