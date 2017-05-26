@@ -40,7 +40,7 @@
     "iced-runtime": "^1.0.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.0",
     "couch": "^0.5.0",
     "coveralls": "^2.11.15",
     "cushion": "^1.6.4",
